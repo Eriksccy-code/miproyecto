@@ -1,0 +1,10 @@
+/* Listado 4-19: Agregando una línea entre las columnas */
+#articulonoticias {
+  width: 580px;
+  padding: 10px;
+  border: 1px solid;
+
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 1px dashed #000000;
+}

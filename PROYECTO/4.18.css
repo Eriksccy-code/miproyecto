@@ -1,0 +1,9 @@
+/* Listado 4-18: Definiendo las columnas */
+#articulonoticias {
+  width: 580px;
+  padding: 10px;
+  border: 1px solid;
+
+  column-count: 2;
+  column-gap: 20px;
+}

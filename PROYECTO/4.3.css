@@ -1,0 +1,5 @@
+/* Listado 4-3: Flotando la imagen hacia la izquierda */
+section img {
+  float: right;
+  margin: 0px 10px;
+}

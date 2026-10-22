@@ -1,0 +1,5 @@
+/* Listado 4-9: Reduciendo el tamaño del contenedor */
+#cajapadre {
+  width: 500px;
+  border: 1px solid;
+}
