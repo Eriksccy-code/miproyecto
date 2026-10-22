@@ -1,0 +1,170 @@
+/* Listado 4-21: Implementando una regla de reseteado */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#cabeceralogo {
+  width: 96%;
+  height: 150px;
+  padding: 0% 2%;
+  background-color: #a31fd0;
+  background-image: url("miimagen.jpg");
+}
+#cabeceralogo > div {
+  width: 960px;
+  margin: 0px auto;
+  padding-top: 45px;
+}
+#cabeceralogo h1 {
+  font: bold 54px MiNuevaletra, sans-serif;
+  color: rgba(7, 248, 248, 0.7);
+  font-family: MiNuevaletra;
+  src: url(font.ttf);
+    text-align: center;
+}
+
+#menuprincipal {
+  width: 96%;
+  height: 50px;
+  padding: 0% 5%;
+  background: #cccccc url( "fondo-cafe.jpg");
+  border-bottom: 6px solid #CF1371;
+}
+#menuprincipal > div {
+  width: 1050px;
+  margin: 0px auto;
+}
+
+#menuprincipal li {
+  display: inline-block;
+  height: 35px;
+  padding: 15px 10px 0px 10px;
+  margin-right: 5px;
+}
+#menuprincipal li:hover {
+  background-color: #c91779;
+}
+#menuprincipal a {
+  font: bold 18px Arial, sans-serif;
+  color: #f7f1f1;
+  text-decoration: none;
+}
+/* main 4.25 */
+main {
+  width: 96%;
+  padding: 2%;
+  background-image: url("fondo.png");
+}
+main > div {
+  width: 960px;
+  margin: 0px auto;
+}
+/* main 4.26 */
+#articulosprincipales {
+  float: left;
+  width: 620px;
+  padding-top: 30px;
+  background: #cccccc url(cell.jpg);
+  border-radius: 10px;
+}
+#infoadicional {
+  float: right;
+  width: 280px;
+  padding: 20px;
+  background: #b14646 url(taza.jpg);
+  border-radius: 10px;
+}
+#infoadicional h1 {
+  font: bold 18px Arial, sans-serif;
+  color: #a53636;
+  margin-bottom: 10px;
+}
+.recuperar {
+  clear: both;
+}
+/* main 4.27 */
+article {
+  position: relative;
+  padding: 0px 40px 20px 40px;
+}
+article time {
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -70px;
+  width: 80px;
+  padding: 15px 5px;
+
+  background-color: #0ee2bf;
+  box-shadow: 3px 3px 5px rgba(187, 21, 21, 0.7);
+  border-radius: 5px;
+}
+figcaption {
+  width: 50%;
+  height: 30px;
+  padding: 0% 5%;
+  background-color: #e295d8;
+  border-top: 6px solid #cf1371;
+  font: bold 15px Verdana, sans-serif;
+  color: #741de6;
+  text-align: left;
+}
+.numerodia {
+  font: bold 36px Verdana, sans-serif;
+  color: #2b0b77;
+  text-align: center;
+}
+.nombredia {
+  font: 12px Verdana, sans-serif;
+  color: #2b0b77;
+  text-align: center;
+}
+
+/* main 4.28 */
+article h1 {
+  margin-bottom: 5px;
+  font: bold 30px Georgia, sans-serif;
+  font-size: 30px;
+  color:#0ee2bf;
+}
+article p {
+  font: 18px Georgia, sans-serif;
+  color: #220b1c;
+}
+figure {
+  margin: 10px 0px;
+}
+figure img {
+  width: 450px;
+  height: 250px;
+  padding: 5px;
+  border: 1px solid;
+}
+/* main 4.29 */
+#pielogo {
+  width: 96%;
+  padding: 2%;
+  background-color: #4d0a44;
+}
+#pielogo > div {
+  width: 960px;
+  margin: 0px auto;
+  background-color: #b958a1;
+  border-radius: 20px;
+}
+.seccionpie {
+  float: left;
+  width: 270px;
+  padding: 25px;
+}
+.seccionpie h1 {
+  font: bold 20px Arial, sans-serif;
+}
+.seccionpie p {
+  margin-top: 5px;
+}
+.seccionpie a {
+  font: bold 16px Arial, sans-serif;
+  color: #0a0a0a;
+  text-decoration: none;
+}
